@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{NAME}} | Personal text assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>{{NAME}}</h1>
+  <p class="meta">A private text-message assistant operated by {{NAME}}.</p>
+
+  <h2>What it does</h2>
+  <p>{{NAME}} uses a basic phone without apps. This service lets them text a question,
+  such as directions, nearby places, or a quick fact, and get the answer back by text message.</p>
+
+  <h2>Who receives messages</h2>
+  <p>The only person who receives messages is {{NAME}}, the operator. The service replies only to
+  {{NAME}}'s own phone number. It ignores texts from every other number and never sends marketing
+  or promotional messages.</p>
+
+  <h2>How to opt in</h2>
+  <div class="optin">
+    <p><strong>Text START to {{TWILIO_NUMBER}}</strong> to receive replies to your questions from
+    {{NAME}}'s personal text assistant. Message frequency varies. Message and data rates may apply.
+    Reply HELP for help. Reply STOP to opt out at any time.
+    <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms &amp; Conditions</a></p>
+  </div>
+  <p>The only person who opts in is {{NAME}}, from their own mobile phone. After opting in, they
+  receive this confirmation:</p>
+  <p class="quote">{{NAME}}: You're subscribed. Text any question for an answer. Msg frequency varies.
+  Msg &amp; data rates may apply. Reply HELP for help, STOP to opt out.</p>
+  <p>After that, the service replies only when {{NAME}} sends a message.</p>
+
+  <h2>Contact</h2>
+  <p>{{EMAIL}}</p>
+
+  <nav>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms &amp; Conditions</a>
+  </nav>
+</main>
+</body>
+</html>
